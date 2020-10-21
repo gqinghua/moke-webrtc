@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+  int a = 5;
+  int *ip;
+  ip = &a;
+  cout << *ip << endl;
+  return 0;
+}
